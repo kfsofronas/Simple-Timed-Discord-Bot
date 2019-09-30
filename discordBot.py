@@ -1,11 +1,10 @@
 # Work with Python 3.6
 import discord
-import time
 from discord.ext import commands
 import random
 import asyncio
 
-client = commands.Bot();
+client = commands.Bot(commands_prefix='');
 client.remove_command('help')
 
 BOTTOKEN =  '''your bot token in string form'''
